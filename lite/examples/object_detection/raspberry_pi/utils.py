@@ -53,5 +53,10 @@ def visualize(
                      _MARGIN + _ROW_SIZE + bbox.origin_y)
     cv2.putText(image, result_text, text_location, cv2.FONT_HERSHEY_PLAIN,
                 _FONT_SIZE, _TEXT_COLOR, _FONT_THICKNESS)
-
-  return image
+  #instead of returning the image of the camera, return the string that will note
+  #what object has been detected (if % is more than 50) and the percentage of accuracy for the object
+  result = ""
+  if percentage > 50:
+    result+= category_name+": "+str(percentage)
+  #return image
+  return result
