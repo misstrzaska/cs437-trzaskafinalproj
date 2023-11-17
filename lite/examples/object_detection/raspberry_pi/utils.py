@@ -48,6 +48,7 @@ def visualize(
     category = detection.categories[0]
     category_name = category.category_name
     probability = round(category.score, 2)
+    percentage = probability*100
     result_text = category_name + ' (' + str(probability) + ')'
     text_location = (_MARGIN + bbox.origin_x,
                      _MARGIN + _ROW_SIZE + bbox.origin_y)
