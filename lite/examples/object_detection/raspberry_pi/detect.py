@@ -89,27 +89,27 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
       probability = round(category.score, 2)
 
     # Draw keypoints and edges on input image
-    image = utils.visualize(image, detection_result)
+    #image = utils.visualize(image, detection_result)
 
-    # Calculate the FPS
-    if counter % fps_avg_frame_count == 0:
-      end_time = time.time()
-      fps = fps_avg_frame_count / (end_time - start_time)
-      start_time = time.time()
+      # Calculate the FPS
+      if counter % fps_avg_frame_count == 0:
+        end_time = time.time()
+        fps = fps_avg_frame_count / (end_time - start_time)
+        start_time = time.time()
 
-    # Show the FPS
-    fps_text = 'FPS = {:.1f}'.format(fps)
-    print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
-    text_location = (left_margin, row_size)
-    cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
-                font_size, text_color, font_thickness)
-    #delay to achieve the desired fps
-    time.sleep(0.8)
+      # Show the FPS
+      fps_text = 'FPS = {:.1f}'.format(fps)
+      print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
+      text_location = (left_margin, row_size)
+      cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
+                  font_size, text_color, font_thickness)
+      #delay to achieve the desired fps
+      time.sleep(0.8)
     # Stop the program if the ESC key is pressed.
     if cv2.waitKey(1) == 27:
       break
     #actually show the image of object detection
-    cv2.imshow('object_detector', image)
+    #cv2.imshow('object_detector', image)
     
   cap.release()
   cv2.destroyAllWindows()
