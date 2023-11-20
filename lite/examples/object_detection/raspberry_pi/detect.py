@@ -38,6 +38,7 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
 
   # Variables to calculate FPS
   counter, fps = 0, 0
+  cellcounter = 0
   start_time = time.time()
 
   # Start capturing video input from the camera
@@ -103,10 +104,15 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
       text_location = (left_margin, row_size)
       cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
                   font_size, text_color, font_thickness)
+      percentage = probability * 100
+      #add in to count instances of cell phone detected
+      if category_name == "cell phone" and percentage > 50
+        cellcounter += 1
       #delay to achieve the desired fps
       time.sleep(0.8)
     # Stop the program if the ESC key is pressed.
     if cv2.waitKey(1) == 27:
+      print(f"Number of cell phones detected: {cellcounter}")
       break
     #actually show the image of object detection
     #cv2.imshow('object_detector', image)
