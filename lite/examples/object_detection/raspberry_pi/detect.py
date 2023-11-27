@@ -103,11 +103,11 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
       #check if category name is cell phone and percentage is greater than 30
       percentage = probability * 100
       if category_name == "cell phone" and percentage > 30:
-      print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
-      text_location = (left_margin, row_size)
-      cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
+        print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
+        text_location = (left_margin, row_size)
+        cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
                   font_size, text_color, font_thickness)
-      cellcounter += 1
+        cellcounter += 1
         print(f"Detected a cell phone! Total cell phone count: {cellcounter}")
       #delay to achieve the desired fps
       time.sleep(0.8)
