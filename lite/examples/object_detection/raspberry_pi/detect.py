@@ -84,38 +84,51 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
     # Run object detection estimation using the model.
     detection_result = detector.detect(input_tensor)
     
-    for detection in detection_result.detections:
-      #Output the predicted object and probability to the terminal
-      category = detection.categories[0]
-      category_name = category.category_name
-      probability = round(category.score, 2)
+    #Generate new csv file (differs by date and time) each time running the program
+    timestamp_str = time.strftime("%Y%m%d_%H%M%S")
+    csv_file_path = f'obj_detection_results_{timestamp_str}.csv'
+    
+    with open(csv_file_path, 'w', newline='') as csvfile:
+      csv_writer = csv.writer(csvfile)
+      csv_writer.writerow(['Timestamp', 'Object Detected'])
+        for detection in detection_result.detections:
+          #Output the predicted object and probability to the terminal
+          category = detection.categories[0]
+          category_name = category.category_name
+          probability = round(category.score, 2)
 
-    # Draw keypoints and edges on input image
-    #image = utils.visualize(image, detection_result)
+        # Draw keypoints and edges on input image
+        #image = utils.visualize(image, detection_result)
 
-      # Calculate the FPS
-      if counter % fps_avg_frame_count == 0:
-        end_time = time.time()
-        fps = fps_avg_frame_count / (end_time - start_time)
-        start_time = time.time()
+          # Calculate the FPS
+          if counter % fps_avg_frame_count == 0:
+            end_time = time.time()
+            fps = fps_avg_frame_count / (end_time - start_time)
+            start_time = time.time()
 
-      # Show the FPS
-      fps_text = 'FPS = {:.1f}'.format(fps)
-      #check if category name is cell phone and percentage is greater than 50
-      percentage = probability * 100
-      if category_name == "cell phone" and percentage > 50:
-        print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
-        text_location = (left_margin, row_size)
-        cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
-                  font_size, text_color, font_thickness)
-        #Get current timestamp when object is detected
-        timestamp = time.localtime()
-        #increase cellcounter by 1 when cell phone detected
-        cellcounter += 1
-        #print that a cell phone was detected, at what time stamp, and what the total cell phone count is at the time
-        print(f"Detected a cell phone at time: {timestamp} Total cell phone count: {cellcounter}")
-      #delay to achieve the desired fps
-      time.sleep(0.8)
+          # Show the FPS
+          fps_text = 'FPS = {:.1f}'.format(fps)
+          #check if category name is cell phone and percentage is greater than 50
+          percentage = probability * 100
+          if category_name == "cell phone" and percentage > 50:
+            print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
+            text_location = (left_margin, row_size)
+            cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
+                      font_size, text_color, font_thickness)
+            #Get current timestamp when object is detected
+            #returns year, month, day, hour, min, sec, wday, yday, isdst?
+            timestamp = time.localtime()
+            #increase cellcounter by 1 when cell phone detected
+            cellcounter += 1
+            #Write to csv file
+            phone_detected = f"Cell phone detected at timestamp {timestamp}"
+            csv_writer.writerow([timestamp, category_name])
+            #print that a cell phone was detected, at what time stamp, and what the total cell phone count is at the time
+            print(f"Detected a cell phone at time: {timestamp} Total cell phone count: {cellcounter}")
+            
+            
+          #delay to achieve the desired fps
+          time.sleep(0.8)
     # Stop the program if the ESC key is pressed.
     if cv2.waitKey(1) == 27:
       break
