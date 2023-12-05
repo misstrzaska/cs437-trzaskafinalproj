@@ -109,7 +109,7 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
         cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
                   font_size, text_color, font_thickness)
         #Get current timestamp when object is detected
-        timestamp = time.time()
+        timestamp = time.localtime()
         #increase cellcounter by 1 when cell phone detected
         cellcounter += 1
         #print that a cell phone was detected, at what time stamp, and what the total cell phone count is at the time
