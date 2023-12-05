@@ -65,12 +65,12 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
   detector = vision.ObjectDetector.create_from_options(options)
 
   #Generate new csv file (differs by date and time) each time running the program
-    timestamp_str = time.strftime("%Y%m%d_%H%M%S")
-    csv_file_path = f'obj_detection_results_{timestamp_str}.csv'
+  timestamp_str = time.strftime("%Y%m%d_%H%M%S")
+  csv_file_path = f'obj_detection_results_{timestamp_str}.csv'
     
-    with open(csv_file_path, 'w', newline='') as csvfile:
-      csv_writer = csv.writer(csvfile)
-      csv_writer.writerow(['Timestamp', 'Object Detected'])
+  with open(csv_file_path, 'w', newline='') as csvfile:
+    csv_writer = csv.writer(csvfile)
+    csv_writer.writerow(['Timestamp', 'Object Detected'])
 
   # Continuously capture images from the camera and run inference
   while cap.isOpened():
