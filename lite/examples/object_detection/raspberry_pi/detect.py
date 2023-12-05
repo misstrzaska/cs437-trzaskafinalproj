@@ -64,6 +64,14 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
       base_options=base_options, detection_options=detection_options)
   detector = vision.ObjectDetector.create_from_options(options)
 
+  #Generate new csv file (differs by date and time) each time running the program
+    timestamp_str = time.strftime("%Y%m%d_%H%M%S")
+    csv_file_path = f'obj_detection_results_{timestamp_str}.csv'
+    
+    with open(csv_file_path, 'w', newline='') as csvfile:
+      csv_writer = csv.writer(csvfile)
+      csv_writer.writerow(['Timestamp', 'Object Detected'])
+
   # Continuously capture images from the camera and run inference
   while cap.isOpened():
     success, image = cap.read()
@@ -84,14 +92,7 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
     # Run object detection estimation using the model.
     detection_result = detector.detect(input_tensor)
     
-    #Generate new csv file (differs by date and time) each time running the program
-    timestamp_str = time.strftime("%Y%m%d_%H%M%S")
-    csv_file_path = f'obj_detection_results_{timestamp_str}.csv'
-    
-    with open(csv_file_path, 'w', newline='') as csvfile:
-      csv_writer = csv.writer(csvfile)
-      csv_writer.writerow(['Timestamp', 'Object Detected'])
-        for detection in detection_result.detections:
+    for detection in detection_result.detections:
           #Output the predicted object and probability to the terminal
           category = detection.categories[0]
           category_name = category.category_name
@@ -117,12 +118,13 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
                       font_size, text_color, font_thickness)
             #Get current timestamp when object is detected
             #returns year, month, day, hour, min, sec, wday, yday, isdst?
-            timestamp = time.localtime()
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
             #increase cellcounter by 1 when cell phone detected
             cellcounter += 1
-            #Write to csv file
-            phone_detected = f"Cell phone detected at timestamp {timestamp}"
-            csv_writer.writerow([timestamp, category_name])
+            #Write to csv file, append on a new line
+            with open(csv_file_path, 'a', newline='') as csvfile:
+              csv_writer = csv.writer(csvfile)
+              csv_writer.writerow([timestamp, category_name])
             #print that a cell phone was detected, at what time stamp, and what the total cell phone count is at the time
             print(f"Detected a cell phone at time: {timestamp} Total cell phone count: {cellcounter}")
             
