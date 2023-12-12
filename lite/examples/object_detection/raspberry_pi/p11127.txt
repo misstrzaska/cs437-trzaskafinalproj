@@ -1,0 +1,442 @@
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 1
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 2
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 3
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 4
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 5
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 6
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 7
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 8
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 9
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 10
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 11
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 12
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 13
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 14
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 15
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 16
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 17
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 18
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 19
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 20
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 21
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 22
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 23
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 24
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 25
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 26
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 27
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 28
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 29
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 30
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 31
+Detected Object: cell phone, Probability: 0.46, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 32
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 33
+Detected Object: cell phone, Probability: 0.46, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 34
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 35
+Detected Object: cell phone, Probability: 0.48, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 36
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 37
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 38
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 39
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 40
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 41
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 42
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 43
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 44
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 45
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 46
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 47
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 48
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 49
+Detected Object: cell phone, Probability: 0.46, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 50
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 51
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 52
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 53
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 54
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 55
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 56
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 57
+Detected Object: cell phone, Probability: 0.46, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 58
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 59
+Detected Object: cell phone, Probability: 0.48, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 60
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 61
+Detected Object: cell phone, Probability: 0.48, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 62
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 63
+Detected Object: cell phone, Probability: 0.48, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 64
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 65
+Detected Object: cell phone, Probability: 0.46, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 66
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 67
+Detected Object: cell phone, Probability: 0.46, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 68
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 69
+Detected Object: cell phone, Probability: 0.46, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 70
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 71
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 72
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 73
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 74
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 75
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 76
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 77
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 78
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 79
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 80
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 81
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 82
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 83
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 84
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 85
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 86
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 87
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 88
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 89
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 90
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 91
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 92
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 93
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 94
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 95
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 96
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 97
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 98
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 99
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 100
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 101
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 102
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 103
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 104
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 105
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 106
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 107
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 108
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 0.6
+Detected a cell phone! Total cell phone count: 109
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 110
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 111
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 112
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 113
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 114
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 115
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 116
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 117
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 118
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 119
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 120
+Detected Object: cell phone, Probability: 0.48, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 121
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 122
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 123
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 124
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 125
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 126
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 127
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 128
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 129
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 130
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 131
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 132
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 133
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 134
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 135
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 136
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 137
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 138
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 139
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 140
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 141
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 142
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 143
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 144
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 145
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 146
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 147
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 148
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 149
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 1.0
+Detected a cell phone! Total cell phone count: 150
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 151
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 152
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 153
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 154
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 155
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 156
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 157
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 158
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 159
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 160
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 161
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 162
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 163
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 164
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 165
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 166
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 0.7
+Detected a cell phone! Total cell phone count: 167
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 168
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 169
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 170
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 171
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 172
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 173
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 174
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 175
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 176
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 177
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 178
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 179
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 180
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 181
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 182
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 183
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 184
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 185
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 186
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 187
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 188
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 189
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 190
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 191
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 192
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 193
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 194
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 195
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 196
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 197
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 198
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 199
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 200
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 201
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 202
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 203
+Detected Object: cell phone, Probability: 0.39, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 204
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 205
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 206
+Detected Object: cell phone, Probability: 0.33, FPS: FPS = 0.5
+Detected a cell phone! Total cell phone count: 207
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 208
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 209
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 210
+Detected Object: cell phone, Probability: 0.41, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 211
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 212
+Detected Object: cell phone, Probability: 0.43, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 213
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 214
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 215
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 216
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 217
+Detected Object: cell phone, Probability: 0.35, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 218
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 0.9
+Detected a cell phone! Total cell phone count: 219
+Detected Object: cell phone, Probability: 0.31, FPS: FPS = 12.5
+Detected a cell phone! Total cell phone count: 220
+Detected Object: cell phone, Probability: 0.37, FPS: FPS = 1.0
+Detected a cell phone! Total cell phone count: 221
