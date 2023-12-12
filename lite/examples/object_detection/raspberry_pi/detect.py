@@ -66,7 +66,7 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
 
   #Generate new csv file (differs by date and time) each time running the program
   timestamp_str = time.strftime("%Y%m%d_%H%M%S")
-  csv_file_path = f'obj_detection_results_{timestamp_str}.csv'
+  csv_file_path = f'obj_detect{timestamp_str}.csv'
     
   with open(csv_file_path, 'w', newline='') as csvfile:
     csv_writer = csv.writer(csvfile)
@@ -109,26 +109,35 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
 
           # Show the FPS
           fps_text = 'FPS = {:.1f}'.format(fps)
-          #check if category name is cell phone and percentage is greater than 50
+          #check if category name is cell phone and percentage is greater than 10
           percentage = probability * 100
-          if category_name == "cell phone" and percentage > 50:
+          if category_name == "cell phone" and percentage > 10:
             print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
             text_location = (left_margin, row_size)
             cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
                       font_size, text_color, font_thickness)
-            #Get current timestamp when object is detected
-            #returns year, month, day, hour, min, sec, wday, yday, isdst?
-            timestamp = time.strftime("%Y%m%d_%H%M%S")
+            #Get current timestamp when object is detected in format of month, day, year, hours, min, sec
+            timestamp = time.strftime("%m/%d/%Y %H:%M:%S")
             #increase cellcounter by 1 when cell phone detected
             cellcounter += 1
             #Write to csv file, append on a new line
             with open(csv_file_path, 'a', newline='') as csvfile:
               csv_writer = csv.writer(csvfile)
-              csv_writer.writerow([timestamp, category_name])
+              #timestamp written, as well as 1 for cellphone
+              csv_writer.writerow([timestamp, 1])
             #print that a cell phone was detected, at what time stamp, and what the total cell phone count is at the time
             print(f"Detected a cell phone at time: {timestamp} Total cell phone count: {cellcounter}")
-            
-            
+          #in the case that a cell phone was NOT detected  
+          else:
+            #Get current timestamp when object is detected in format of month, day, year, hours, min, sec
+            timestamp = time.strftime("%m/%d/%Y %H:%M:%S")  
+            #Write to csv file, append on a new line
+            with open(csv_file_path, 'a', newline='') as csvfile:
+              csv_writer = csv.writer(csvfile)
+              #for better visualization, have timestamp written, as well as 0 for not cell phone detected
+              csv_writer.writerow([timestamp, 0])
+            #print that a cell phone was detected, at what time stamp, and what the total cell phone count is at the time
+            print(f"Did not detect a cell phone at time: {timestamp}")
           #delay to achieve the desired fps
           time.sleep(0.8)
     # Stop the program if the ESC key is pressed.
