@@ -1,5 +1,5 @@
 # TensorFlow Examples
-
+Adjusted for use for this final project by Weronika Trzaska
 <div align="center">
   <img src="https://www.tensorflow.org/images/tf_logo_social.png" /><br /><br />
 </div>
@@ -30,6 +30,7 @@ guide.
 
 To file an issue, use the tracker in the
 [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/issues/new?template=20-documentation-issue.md) repo.
+
 
 ## License
 
