@@ -109,9 +109,9 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
 
           # Show the FPS
           fps_text = 'FPS = {:.1f}'.format(fps)
-          #check if category name is cell phone and percentage is greater than 10
+          #check if category name is cell phone and percentage is greater than 30
           percentage = probability * 100
-          if category_name == "cell phone" and percentage > 10:
+          if category_name == "cell phone" and percentage > 30:
             print(f"Detected Object: {category_name}, Probability: {probability}, FPS: {fps_text}")
             text_location = (left_margin, row_size)
             cv2.putText(image, fps_text, text_location, cv2.FONT_HERSHEY_PLAIN,
